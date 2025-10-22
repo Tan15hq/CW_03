@@ -1,17 +1,10 @@
-/*
-==============================================================
-Main Entry: Runs the Task Manager App
-- Handles theme switching (light/dark)
-- Sets up navigation routes
-==============================================================
-*/
 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import 'screens/task_list_screen.dart';
 import 'screens/settings_screen.dart';
-
+//hyh
 void main() {
   runApp(const TaskManagerApp());
 }
@@ -22,7 +15,7 @@ class TaskManagerApp extends StatefulWidget {
   @override
   State<TaskManagerApp> createState() => _TaskManagerAppState();
 }
-
+//added new functionality
 class _TaskManagerAppState extends State<TaskManagerApp> {
   ThemeMode _themeMode = ThemeMode.system;
 
